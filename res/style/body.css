@@ -1,0 +1,226 @@
+body {
+    background-color: #E5E5E5;
+    height: 100%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.profile{
+    box-shadow: 0 0 50px 0 black;
+    background-color: #F2F2F2;
+    width: 512px;
+    border-radius: 10px;    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.profile__warp{
+    padding-bottom: 1;
+    /* background-color: green; */
+    width: 369px;
+    margin: 50px 0;
+}
+
+
+.profile__header__info{
+    display: flex;
+    align-items: center;
+}
+.profile__info_avatar img{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
+.profile__infos {
+    margin: 0 20px;
+}
+.profile__infos div{
+    margin: 10px 0;
+    font-size: 1.4rem;
+}
+.profile__infoname{
+    width: 271px;
+    font-size: 1.4rem;
+}
+
+.profile__Dep{
+    width: 250px;
+    font-size: 1.6rem;
+}
+
+.profile__body{
+    margin-top: 30px;   
+}
+
+.profile__skills__header{
+    margin-bottom: 15px;
+}
+.profile__skills__item__list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.profile__skills__it{
+    margin-top: 10px;
+    margin-right: 20px;
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+}
+.profile__skills__it__item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.profile__skills__it img{
+    width: 30px;
+    height: 30px;
+}
+
+.Exp__header{
+    margin: 20px 0 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Exp__item{
+    padding-left: 40px;
+    max-height: 225px;
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+.Exp__item::-webkit-scrollbar{
+    display: none;
+}
+    
+.Exp_list_item{
+    list-style:square;
+    position: relative;
+    padding-top: 11px;
+}
+.Exp_list_item::after{
+    content: "";
+    position: absolute;
+    left: -13px;
+    width: 1px;
+    top: 14px;
+    height: 100%;
+    border-right: 1px solid rgba(0,0,0,0.5);
+}
+
+
+.profile__footer{
+    border-radius: 10px;
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+
+.profile__footer__icon{
+    color: black;
+    font-size: 3.5rem;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.profile__footer::after{
+    content: "";
+    margin-top: 16px;
+    justify-self: center;
+    height: 7px;
+    width: 181px;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.wrongimgfix{
+    width: 50px !important;
+}
+
+.header--icon{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: baseline;
+    
+}
+
+.header--icon div{
+    font-size: 2.6rem;
+}
+
+.header--icon div ion-icon{
+    margin-top: 10px;
+    margin-right:10px;
+}
+.header--icon div ion-icon:last-child{
+    margin-right: 20px;
+}
+
+.skills-edit,
+.EXP-edit{
+    display: none;
+}
+
+
+
+.skillsimg-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skillsimg-item{
+    margin:10px 10px;
+}
+.skillsimg-item:hover{
+    padding: 10px;
+    background-color: rgba(0,0,0,0.2);
+    transition: linear 0.2s;
+    cursor: pointer;
+}
+.skillsimg-item:not(:hover){
+    padding: 0;
+    transition: linear 0.2s;
+    cursor: pointer;
+}
+.skillsimg-item img{
+    width: 40px;
+    height: 40px;
+}
+
+.skills-edit-windows{
+    display: none;
+}
+
+.EXP-edit-windows{
+    display: none;
+}
+
+.Ex-remove{
+    display: inline;
+}
+
+.input__EXPadd{
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}

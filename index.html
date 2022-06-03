@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./res/style/base.css">
+    <link rel="stylesheet" href="./res/style/header.css">
+    <link rel="stylesheet" href="./res/style/body.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="maindiv">
+
+        <div class="header">
+            <div class="header__item">
+
+                <button class="header__item-button-edit">
+                    View mode
+                </button>
+                
+                <button class="header__item-button">
+                    Change theme
+                </button>
+                
+            </div>
+        </div>
+
+        <div class="container">
+            
+            <div class="profile">
+                <div class="header--icon">
+                    <div id="time_span" style="margin-left: 20px;">
+                        00:00
+                    </div>
+                    <div>
+                        <ion-icon name="compass"></ion-icon>
+                        <ion-icon name="wifi"></ion-icon>
+                        <ion-icon name="battery-full"></ion-icon>
+                    </div>
+                </div>
+                <div class="profile__warp">
+                    <div class="profile__header">
+                        <div class="profile__header__info">
+
+                            <div class="profile__info_avatar">
+                                <img src="./res/img/defaultAvatar.jpg" alt="">
+                            </div>
+
+                            <div class="profile__infos">
+
+                                <div class="profile__infoname">
+                                    <h1 class="User-name"style="outline:none;">Nguyen Ngoc Son tung</h1>
+                                </div>
+
+                                <div>
+                                    <p class="User-name-info">Front-end/Back-end Developer</p>
+                                </div>
+
+                                <div style="color:rgba(0,0,0,0.5)"> 
+                                    <ion-icon name="location"></ion-icon>
+                                    <p style="display: inline;" class="User-name-loation">Vietnam</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="profile__Dep">
+                            <p class="User-infos">I'm front/back-end Developer with 1 year experience.</p>
+                        </div>
+                    </div>
+
+                    <div class="profile__body">
+                        <div class="profile__skills">
+                            <div class="profile__skills__header">
+                                <h1>Skills</h1>
+                            </div>
+
+                            <div class="profile__skills__item">
+                                <ul class="profile__skills__item__list">
+                                    <li class="profile__skills__it">
+                                        <div class="profile__skills__it__item">
+                                            <img src="./res/img/skillsjs.png" alt="">
+                                            <h4>Javascript</h4>
+                                        </div>
+                                    </li>
+                                    <li class="profile__skills__it">
+                                        <div class="profile__skills__it__item">
+                                            <img src="./res/img/CSSicon-removebg-preview.png" alt="">
+                                            <h4>CSS</h4>
+                                        </div>
+                                    </li>
+                                    <li class="profile__skills__it">
+                                        <div class="profile__skills__it__item">
+                                            <img class="wrongimgfix" src="./res/img/Reactjsicon-removebg-preview.png" alt="">
+                                            <h4>Reactjs</h4>
+                                        </div>
+                                    </li>
+                                    <li class="profile__skills__it">
+                                        <div class="profile__skills__it__item">
+                                            <img src="./res/img/nodejsicon-removebg-preview.png" alt="">
+                                            <h4>Nodejs</h4>
+                                        </div>
+                                    </li>
+                                    <li Addskill style="cursor:pointer;" class="profile__skills__it skills-edit">
+                                        <div class="profile__skills__it__item">
+                                            <h4><ion-icon style="width: 30px;height:30px" name="add-circle"></ion-icon></h4>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="Experience">
+                            <div class="Exp__header">
+                                <h1>Experience</h1>
+                                <button class="EXP-edit" style="margin-left:10px; width:50px;height:30px;">thêm</button>
+                            </div>
+
+                            <div class="Exp__item">
+                                <ul class="Exp__list">
+                                    <li class="Exp_list_item">
+                                        <div style="display:flex;justify-content:space-between">
+                                            <h2 style="display:inline">
+                                                Front-End Technical Lead
+                                            </h2>
+                                            <div style="cursor:pointer;font-size: 1.4rem; color:red" class="Ex-remove">Xóa</div>
+                                        </div>
+                                        
+                                        <div>
+                                            <h3>
+                                                Code Lab LLC
+                                            </h3>
+                                            <h3>
+                                                Seb 2017 - Present
+                                            </h3>
+                                        </div>
+                                    </li>
+
+                                    <li class="Exp_list_item">
+                                        <div style="display:flex;justify-content:space-between">
+                                            <h2 style="display:inline">
+                                                Back end
+                                            </h2>
+                                            <div style="cursor:pointer;font-size: 1.4rem; color:red" class="Ex-remove">Xóa</div>
+                                        </div>
+                                        
+                                        <div>
+                                            <h3>
+                                                Code Lab LLC
+                                            </h3>
+                                            <h3>
+                                                Seb 2017 - Present
+                                            </h3>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="profile__footer">
+                    <div class="profile__footer__icon">
+                        <ion-icon name="search"></ion-icon>
+                        <ion-icon name="bag-remove"></ion-icon>
+                        <ion-icon name="notifications"></ion-icon>
+                        <ion-icon name="menu"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+
+            <div style="margin-left:20px" class="profile skills-edit-windows ">
+                <div class="skillsimg">
+                    <ul class="skillsimg-list">
+                        <li class="skillsimg-item">
+                            <img src="/res/img/nodejsicon-removebg-preview.png" alt="">
+                        </li>
+                        <li class="skillsimg-item">
+                            <img src="/res/img/nodejsicon-removebg-preview.png" alt="">
+                        </li>
+                        <li class="skillsimg-item">
+                            <img src="/res/img/nodejsicon-removebg-preview.png" alt="">
+                        </li>
+                        <li class="skillsimg-item">
+                            <img src="/res/img/nodejsicon-removebg-preview.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div style="margin-left:20px" class="profile EXP-edit-windows ">
+                <div style="margin:10px 0;" class="EXP-edit-text">
+                    <div>
+                        <h2>
+                            <input class="input__EXPadd" type="text" name="" id="">
+                        </h2>
+                    </div>
+                    
+                    <div>
+                        <h3>
+                             <input class="input__EXPadd" type="text" name="" id="">
+                        </h3>
+                        <h3>
+                            <input class="input__EXPadd" type="text" name="" id="">
+                        </h3>
+                    </div>
+                </div>
+
+                <div style="margin:10px 0;" class="EXP_edit-addbutton">
+                    <button style=" width: 80px;height: 40px;">Add</button>
+                </div>
+            </div>
+            
+            
+        </div>
+
+    </div>
+</body>
+<script src="./res/script/theme.js"></script> <!--Xử lý theme-->
+<script src="/res/script/time.js"></script> <!--Xử lý thời gian-->
+<script src="/res/script/view-edit.js"></script> <!--Xử lý view and edit profile-->
+</html>
